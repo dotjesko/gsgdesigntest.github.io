@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+   
+}
+
+.wrapper{
+    width: 100%;
+
+
+}
+
+    .main-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4em;
+        width: 90%;
+    }
+    .titel h2{
+        padding-top: 1.3em;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Hind' , sans-serif;
+    }
+    .titel h1{
+        padding-top: 1em;
+        font-size: 3em;
+        text-align: center;
+        font-family: 'Montserrat' , sans-serif;
+    }
+
+    .titel img{
+        
+        margin: 0%;
+        width: 100%;
+        display: block;
+        padding: none;
+    }
+    
+    
+    .infos p{
+        font-size: 2em;
+        font-family: 'Montserrat' , sans-serif;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+        color: #111;
+        }
+        .infos hr{
+            border: 0.5px solid black;
+        }
+        
+        .fake-hr hr{
+            opacity: 0%;
+        }
+
+        .infos h1{
+            margin: 1em;
+            text-align: center;
+            font-family: 'Ubuntu';
+        }
+        .anleitung img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            border-radius: 20%;
+        }
+        .anleitung p{
+            margin-right: 1.5em;
+            margin-left: 1.5em;
+            margin-top: 2em;
+            text-align: center;
+            font-size: 1.5em;
+            font-family: 'Ubuntu' , sans-serif;
+        }
+        .anleitung a{
+            color:deepskyblue;
+            text-decoration: none;
+            margin-bottom: 3em;
+        }
+        .download img{
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 1em;
+            display: block;
+            width: 15em;
+        }
+        .import-tut img{
+            margin-top: 7em;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border-radius: 36px;
+        }
+        .import-tut p{
+            text-align: center;
+            font-family: 'Hind' , sans-serif;
+            font-size: 1.3em;
+        }
+        .import-tut a{
+            color:deepskyblue;
+            text-decoration: none;
+            margin-bottom: 1.3em;
+        }
+        .import-tut article{
+            margin-right: 1.2em;
+            margin-left: 1.2em;
+            margin-top: 5em;
+            text-align: center;
+            font-family: 'Roboto' , sans-serif;
+            font-size: 1.2em;
+        }
+        .import-img img{
+            width: 30%;
+            margin-left: auto;
+            display: block;
+            margin-right: auto;
+        }
+        .import-gif img{
+            margin-top: 1em;
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 40px;
+        }
+.pc-infos p{
+    margin: 1em;
+    text-align: center;
+    font-family: 'Hind' , sans-serif;
+    font-size: 1.1em;
+}
+.pc-infos a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.pc-infos article{
+    text-align: center;
+    margin: 2em;
+    font-size: 1.2em;
+    font-family: 'Montserrat' , sans-serif;
+}
+.pc-infos hr{
+    margin-top: 3em;
+    border: 0.01em solid black;
+    margin: 2em;
+}
+.mobile-tut{
+    display: block;
+}
+.mobile-tut hr{
+    margin: 2em;
+    border: 0.5px solid black;
+}
+.column{
+    margin-top: 6em;
+    float: left;
+    width: 33.33%;
+}
+.column img{
+    width: 100%;
+}
+.column p{
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+.zeit{
+    text-align: center;
+
+}
+.zeit h2{
+    font-family: 'Hind';
+    font-size:small;
+}
+
+.zeit h1{
+    font-family: 'Roboto';
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 350px){
+.dreier-reihe , .column , .row{
+    display: none;
+}
+.pc-tut{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+    .dreier-reihe , .column , .row{
+        display: block;
+    }
+    .mobile-tut{
+        display: none;
+    
+    }
+    .main-logo{
+        width: 30%;
+        margin-top: 3em;
+    }
+    .titel img{
+        display: none;
+    }
+
+    .infos hr{
+        margin: 3em;
+        border: 0.5px solid black;
+
+    }
+    
+}
+
+    .pc-tut{
+        display: block;
+    }
+    
+    
